@@ -2,6 +2,7 @@ const btn = document.querySelector('.target');
 const main = document.querySelector('main');
 const pop = document.querySelector('.popup');
 const cross = document.querySelector('.cross'); 
+main.style.filter = 'blur(10px)';
 if(pop.classList.contains('active')){
     main.style.filter = 'blur(10px)';
 }
