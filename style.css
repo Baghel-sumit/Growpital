@@ -1,0 +1,6 @@
+.popup{
+    visibility:hidden;
+}
+.popup.active{
+    visibility: visible;
+}
